@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("IMG_insonminia2.png") no-repeat center center fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.img{
+      width: 300px;
+      height: 200px;
+      position: absolute;
+      position: fixed;
+      left: 0;
+      top: 0;
+
+}
+
+.container{
+    width: 100%;
+    background: #1d1d1d;
+    border-radius: 5px;
+    max-width: 600px;
+    min-height: 100vh;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box{
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    font-size: 18px;
+    margin: 20px 0;
+
+}
+
+.descricao{
+    height: 130px;
+}
+
+.opcao{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: white;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+input[type="radio"]{
+    width: 20px;
+    height: 20px;
+}
+
+button{
+    width: 100%;
+    padding: 15px;
+    font-size: 28px;
+    font-style: italic;
+    background: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 15px 0;
+}
+
+button:hover{
+    background: #e0e0e0;
+}
+
+.garantias{
+    background: white;
+    border: 2px solid #3399ff;
+    padding: 15px 10px 70px 20px;
+}
+
+.garantias ul{
+    margin-top: 5px;
+    padding-left: 20px;
+}
+.btn-comprar{
+    background: #000000;
+    color: white;
+    border: none;
+    padding: 40px;
+    font-size: 28px;
+    font-style: italic;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 30px 0;
+}
+.btn-comprar:hover{
+    background: #ff0000;
+}

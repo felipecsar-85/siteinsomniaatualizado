@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:url("IMG_insonminia2.png") center center / cover no-repeat;
+    color:white;
+    display:flex;
+}
+.logo{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    position: fixed;
+    left: 0;
+}
+
+.container{
+    width:90%;
+    max-width:800px;
+    background:#333;
+    padding:20px;
+    border-radius:10px;
+    display:block;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto; 
+}
+
+h1{
+    margin-bottom:15px;
+}
+
+.principal{
+    width:100%;
+    border-radius:10px;
+}
+
+.galeria{
+    display:flex;
+    gap:10px;
+    margin:15px 0;
+}
+
+.galeria img{
+    width:32%;
+    border-radius:5px;
+}
+
+.info{
+    background:#ddd;
+    color:black;
+    padding:15px;
+    border-radius:5px;
+}
+
+.botao{
+    display:block;
+    text-align:center;
+    background:black;
+    color:white;
+    text-decoration:none;
+    padding:15px;
+    margin-top:15px;
+    border-radius:5px;
+    font-size:20px;
+}
+
+.botao:hover{
+    background:red;
+}

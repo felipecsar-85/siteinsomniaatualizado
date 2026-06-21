@@ -1,0 +1,110 @@
+body {
+      font-family: 'Poppins', sans-serif;
+      background: url('IMG_insonminia2.png') center center / cover no-repeat;
+      color: #f4f4f4;
+      max-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex;
+      align-items: center;
+      
+}
+
+.body2 {
+      font-family: 'Poppins', sans-serif;
+      background: url('IMG_insonminia2.png') center center / cover no-repeat;
+      color: #f4f4f4;
+      min-height: 100vh;
+
+}
+    
+
+.IMG1 {
+      width: 600px;
+      height: 300px;
+}
+
+.IMG1_cad {
+      width: 300px;
+      height: 200px;
+      position: absolute;
+      position: fixed;
+      left: 0;
+
+}
+
+.Logo {
+      text-align: center;
+      margin-top: 8px;
+}
+.cadastro-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto; 
+      max-width: 100%;
+      min-height: 100vh;
+}
+
+.Titulo {
+      text-align: center;
+      margin: 0 0 auto;
+      font-size: 40px;
+}
+ .Espaço_email, .Espaço_senha, .Nome, .CPF,
+  .E-mail, .Telefone, .Senha, .ConfirmarSenha {
+  display: block;
+  border-radius: 20px;
+  font-size: 18px;
+  margin: 5px 10px 16px;
+  padding: 12px 24px;
+  width: 400px;
+  height: 10px;
+}
+.Botão_Cadastro, .Botão_Login, .Botão_Voltar {
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 24px;
+  margin: 20px auto 0 auto;
+  width: 300px;
+  display: block;
+  background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+}
+
+.Botão_Cadastro:hover, .Botão_Login:hover, .Botão_Voltar:hover {
+       transform:translateY(-2px);
+}
+.Botão_Cadastro:active, .Botão_Login:active, .Botão_Voltar:active {
+       background: #242424;
+       color: #c5c5c5;
+}
+label {
+  text-align: left;
+  padding: 4px 0 0 16px;
+  font-size: 20px;
+}
+.Cadastro {
+  background-color: #323232;
+  display: block;
+  padding: 0 20px;
+}
+h1 {
+  text-align: center;
+  margin: 16px auto 0;
+}
+input[type="email"]:user-invalid, 
+input[type="password"]:user-invalid,
+input[type="tel"]:user-invalid,
+input[type="text"]:user-invalid{
+      background-color: #c98282;
+      border: 3px solid rgb(116, 63, 63);
+}
+input[type="email"]:user-valid, 
+input[type="password"]:user-valid,
+input[type="tel"]:user-valid,
+input[type="text"]:user-valid{
+      background-color: #a4dba7;
+      border: 3px solid #347750;
+}
